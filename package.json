@@ -1,7 +1,19 @@
 {
+	"name": "protondb-extension",
+	"version": "1.1.0",
+	"description": "Displays ProtonDB compatibility ratings on Steam library pages",
+	"main": "./frontend/index.tsx",
+	"author": "SKELLETONX",
+	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"dev": "millennium-ttc --build dev",
 		"build": "millennium-ttc --build prod"
+	},
+	"dependencies": {
+		"@steambrew/api": "^5.5.3",
+		"@steambrew/client": "^5.5.3",
+		"@steambrew/ttc": "^2.7.3"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.28.3",
@@ -10,18 +22,5 @@
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",
 		"@types/webpack": "^5.28.5"
-	},
-	"type": "module",
-	"name": "millennium-plugin",
-	"version": "1.0.0",
-	"description": "A template plugin for millennium",
-	"main": "./frontend/index.jsx",
-	"author": "Millennium",
-	"license": "MIT",
-	"dependencies": {
-		"@steambrew/api": "^5.5.3",
-		"@steambrew/client": "^5.5.3",
-		"@steambrew/ttc": "^2.7.3",
-		"@steambrew/webkit": "^5.5.3"
 	}
 }
