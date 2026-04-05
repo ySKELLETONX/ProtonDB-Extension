@@ -1,7 +1,7 @@
 {
 	"name": "protondb-extension",
 	"version": "1.1.0",
-	"description": "Displays ProtonDB compatibility ratings on Steam library pages",
+	"description": "Displays ProtonDB compatibility ratings on Steam library and store pages",
 	"main": "./frontend/index.tsx",
 	"author": "SKELLETONX",
 	"license": "MIT",
@@ -13,7 +13,8 @@
 	"dependencies": {
 		"@steambrew/api": "^5.5.3",
 		"@steambrew/client": "^5.5.3",
-		"@steambrew/ttc": "^2.7.3"
+		"@steambrew/ttc": "^2.7.3",
+		"@steambrew/webkit": "^5.5.3"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.28.3",
