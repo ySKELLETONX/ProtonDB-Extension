@@ -13,10 +13,11 @@ Stop switching between your browser and Steam; check if a game runs on Linux/Ste
 
 ## 🚀 Features
 
-* **Real-time Integration:** Automatically detects the AppID of the game you are viewing.
-* **Live Status Badges:** Displays the current ProtonDB medal (Platinum, Gold, Silver, etc.) right above the game title.
-* **Color Coded:** Visual cues matching ProtonDB’s official tier colors.
-* **One-Click Access:** Click the badge to open the full report page on ProtonDB.com for detailed tweaks and user comments.
+* **Store Page Ratings:** Displays the ProtonDB tier (Platinum, Gold, Silver, Bronze, Borked) in the store page sidebar alongside developer and publisher info.
+* **Library Page Badges:** Shows a colour-coded ProtonDB badge in the game detail banner when browsing your library.
+* **Colour Coded:** Tier text matches ProtonDB’s official tier colours for instant recognition.
+* **One-Click Access:** Click any rating to open the full ProtonDB report page for detailed tweaks and user comments.
+* **Cached Results:** Ratings are cached per session to minimise API calls.
 
 ---
 
@@ -34,7 +35,7 @@ Stop switching between your browser and Steam; check if a game runs on Linux/Ste
 2.  **Clone the repository:**
     ```bash
     cd ~/.local/share/millennium/plugins/
-    git clone [https://github.com/ySKELLETONX/ProtonDB-extension.git](https://github.com/ySKELLETONX/ProtonDB-extension.git)
+    git clone https://github.com/ySKELLETONX/ProtonDB-extension.git
     ```
 
 3.  **Restart Steam:**
